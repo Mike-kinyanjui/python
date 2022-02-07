@@ -1,0 +1,11 @@
+salary=int(input("enter the salary"))
+years=int(input("enter the number of years")) 
+if year>10:
+ bonus=salary*o.1
+print("bonus",bonus)
+if years>=6 and year<=10:
+bonus=salary*0.08
+print("bonus",bonus)
+if year<6:
+    bonus=salary*0.05
+    print("bonus",bonus)
